@@ -1,0 +1,45 @@
+function sayHello(){
+    console.log("Hello my name is C");
+
+}
+
+sayHello("nico");
+sayHello("dal");
+sayHello("lynn");
+//C안으로 이름을 넣어보기 but, 이름변동 불가
+//console에서 c를 출력하고 있기 때문
+
+function sayHello(nameOfPerson, age){
+    console.log("Hello my name is " + nameOfPerson + " and I'm " + age);
+}
+
+sayHello("nico", 10);
+sayHello("dal", 23);
+sayHello("lynn", 21);
+
+
+//계산기 
+function plus(firstNumber, secondNumber) {
+    console.log(firstNumber + secondNumber);
+}
+function divide(a, b){
+    console.log(a / b);
+}
+plus(8, 60);
+divide(98, 20);
+//괄호 안의 순서는 정말 중요함!
+
+
+
+const player = {
+    name: "nico",
+    sayHello: function (otherPersonsName) {
+        console.log("hello " + otherPersonsName + " nice to meet you")
+    }
+};
+
+player.sayHello("lynn");
+player.sayHello("nico");
+
+
+

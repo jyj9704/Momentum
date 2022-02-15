@@ -1,0 +1,16 @@
+const a = 5;
+const b = 2;
+let myName = "yeji";
+//변수 값 let, constant        
+//1. constant 바뀌지 않는 값 (상수)
+//2. let 수정이 가능함
+
+console.log(a + b);
+console.log(a * b);
+console.log(a / b);
+console.log("hello " + myName);
+//log 보여주는 것!
+
+myName = "George"
+//변수 업데이트 따라서 결과값 바뀜.
+console.log("your name is " + myName);

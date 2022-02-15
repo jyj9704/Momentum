@@ -1,0 +1,5 @@
+const amIFat = null;
+let something;
+//null = 아무것도 없다.
+//undefined 값이 들어있지 않다.
+console.log(something, amIFat);
