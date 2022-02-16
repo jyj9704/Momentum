@@ -1,0 +1,25 @@
+const a = 5;
+let isNicoFat = true;
+/*const = 값을 업데이트 하지 못하게 함
+let은 const와 동일한 일을 함 but, let은 업데이트 할 수 있음
+변수를 업데이트 하고싶다면 변수 앞 const 대신 let 사용!*/
+
+isNicoFat = false;
+
+const toBuy = ["potato", "tomato", "pizza"];
+//list 즉, array만듬 
+
+console.log(toBuy);
+toBuy[2] = "water";
+//toBuy 3번째 자리에 water 업데이트
+console.log(toBuy);
+
+const toBuy = ["potato", "tomato", "pizza"];
+//list 즉, array만듬 
+
+console.log(toBuy);
+toBuy[2] = "water";
+//toBuy 3번째 자리에 water 업데이트
+console.log(toBuy);
+toBuy.push("meat");
+console.log(toBuy);
