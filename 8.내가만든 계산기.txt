@@ -1,0 +1,21 @@
+const calcultor = {
+    add: function (a, b) {
+    console.log(a + b);
+    },
+    minus: function (a, b) {
+    console.log(a - b);
+    },
+    div: function (a, b) {
+    console.log (a / b);
+    },
+    multi: function (a, b) {
+    console.log (a * b);
+    },
+    power: function (a, b) {
+    console.log (a ** b);
+    },
+}; 
+    calcultor.add(3, 7);
+    calcultor.minus(7, 2);
+    calcultor.div(2, 7);
+    calcultor.multi(3, 2);
