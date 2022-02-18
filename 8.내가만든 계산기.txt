@@ -1,4 +1,4 @@
-const calcultor = {
+const calculator = {
     add: function (a, b) {
     console.log(a + b);
     },
@@ -15,7 +15,7 @@ const calcultor = {
     console.log (a ** b);
     },
 }; 
-    calcultor.add(3, 7);
-    calcultor.minus(7, 2);
-    calcultor.div(2, 7);
-    calcultor.multi(3, 2);
+    calculator.add(3, 7);
+    calculator.minus(7, 2);
+    calculator.div(2, 7);
+    calculator.multi(3, 2);
