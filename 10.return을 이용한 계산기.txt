@@ -1,0 +1,26 @@
+const calculator = {
+    add: function (a, b) {
+    return a + b;
+    },
+    minus: function (a, b) {
+    return a - b;
+    },
+    divide: function (a, b) {
+    return a / b;
+    },
+    multi: function (a, b) {
+    return a * b;
+    },
+    power: function (a, b) {
+    return a ** b;
+    },
+}; 
+    const addResult = calculator.add(3, 7); 
+    const minusResult = calculator.minus(addResult, 10); 
+    const divideResult = calculator.divide(10, minusResult); 
+    const multiResult = calculator.multi(divideResult, addResult);
+    const powerResult = calculator.power(divideResult, minusResult)
+   
+
+
+    //console = show의 개념, return = 함수의 결과 return!!!!

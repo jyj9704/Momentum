@@ -1,0 +1,12 @@
+const age = 96;
+function calculateKrAge(ageOfForeigner){
+   ageOfForeigner + 2;
+    return "hello";
+}
+
+const krAge = calculateKrAge(age);
+
+console.log(krAge);
+
+//기능 안에서 리턴을 사용하면 펑션을 사용할때 7번라인 대체 3번라인의 결과값으로
+//9-1-7-8-7-9 순으로 출력
