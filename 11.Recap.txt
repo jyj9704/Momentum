@@ -1,0 +1,23 @@
+const calculator = {
+    add: function (a, b) {
+    console.log("Hello");
+    return a + b;
+    console.log("bye bye");
+    //return 실행 된 이후 function은 종료되기때문에 bye bye 실행 x
+    },
+    minus: function (a, b) {
+    return a - b;
+    },
+    divide: function (a, b) {
+    return a / b;
+    },
+    multi: function (a, b) {
+    return a * b;
+    },
+    power: function (a, b) {
+    return a ** b;
+    },
+}; 
+    const addResult = calculator.add(2, 3); 
+  
+    
